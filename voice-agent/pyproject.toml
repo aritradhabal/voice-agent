@@ -1,0 +1,11 @@
+[project]
+name = "voice-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "certifi>=2025.11.12",
+    "dotenv>=0.9.9",
+    "livekit-agents[assemblyai,elevenlabs,openai,silero,turn-detector]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "python-dotenv>=1.2.1",
+]
