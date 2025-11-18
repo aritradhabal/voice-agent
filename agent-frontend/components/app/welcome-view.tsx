@@ -34,7 +34,15 @@ export const WelcomeView = ({
         <WelcomeImage />
 
         <p className="text-foreground max-w-sm pt-1 leading-6 font-medium text-pretty">
-          Talk with Aritra & see if he&apos;s right fit for Your Company
+          Talk with Aritra & see if he&apos;s right fit for Your Company.
+        </p>
+
+        <p className="text-foreground/80 max-w-md pt-1 text-sm leading-6 font-medium">
+          I might run out of credits soon.{' '}
+          <a href="https://youtu.be/OcH-aOdcDQU" className="underline" target="_blank">
+            Click here
+          </a>{' '}
+          to see the Demo video.
         </p>
 
         <Button variant="primary" size="lg" onClick={onStartCall} className="mt-6 w-64 font-mono">
